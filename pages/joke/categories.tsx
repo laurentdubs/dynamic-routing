@@ -28,7 +28,7 @@ const Categories: React.FC<CategoriesProps> = ({ categories }) => {
         {categories.map((element) => {
           return (
               <li>
-            <Link href={`/category/${element}`}>
+            <Link href={`/joke/categories/${element}`}>
               <a>{element}</a>
             </Link>
             </li>
